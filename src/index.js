@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> //render()関数の第二引数で参照したDOMに対して<App />(= Appコンポーネント)を紐付ける
   </React.StrictMode>,
   document.getElementById('root')
 );
