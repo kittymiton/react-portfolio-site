@@ -6,12 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App /> //render()関数の第二引数で参照したDOMに対して<App />(= Appコンポーネント)を紐付ける
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitalsreportWebVitals();
