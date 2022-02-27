@@ -1,6 +1,6 @@
 // 画像をそれぞれimportします。パスに注意してください。
 import CoverImage from '../images/cover-image.jpg';
-import ProfileImage from '../images/profile-image.png';
+import ProfileImage from '../images/profile-image.jpg';
 import { FaTwitter, FaGithub } from 'react-icons/fa';
 
 export const Header = () => {
@@ -11,8 +11,8 @@ export const Header = () => {
         <div className="display-table">
           <div className="display-table-contents">
             <div className="profile-thumb" style={{ backgroundImage: `url(${ProfileImage})` }}></div>
-            <h1 className="title-text">あなたの名前</h1>
-            <h3 className="title-text">あなたの肩書(ex.Engineer)</h3>
+            <h1 className="title-text">狩野敦子</h1>
+            <h3 className="title-text">Webコーダー</h3>
             <ul className="social-icons">
               <li className="icon-link">
                 {/* リンク先(href)は任意のURLを設定してください */}
